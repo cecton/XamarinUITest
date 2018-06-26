@@ -23,16 +23,17 @@ namespace UsingUITest.Tests
             //    #endif
            
 
-            /*if (platform == Platform.Android)
+            if (platform == Platform.Android)
             {
                 return ConfigureApp
                     .Android
                     // TODO: Update this path to point to your Android app and uncomment the
                     // code if the app is not included in the solution.
-                    //.ApkFile ("../../../Droid/bin/Debug/xamarinforms.apk")
+                    .ApkFile ("../../../Droid/bin/Debug/com.xamarin.usinguitest-Signed.apk")
                     .StartApp();
-            }*/
-                        return ConfigureApp
+            }
+
+            return ConfigureApp
                 .iOS
                 .Debug()
                 // TODO: Update this path to point to your iOS app and uncomment the
